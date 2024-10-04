@@ -1,0 +1,28 @@
+.drop{
+    margin-left: 1%;
+}
+.vertical{
+    display: flex;
+}
+.fecha{
+   justify-content: space-between;
+}
+.mayo{
+    margin: 0;
+}
+.card{
+    margin-bottom: 2%;
+}
+.titulo{
+    padding: 2%;
+}
+#caption{
+    width: 100%;
+}
+.capticonos{
+    font-size: x-large;
+    margin: ;
+}
+.diferencia{
+    justify-content: center;
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <title>Instagram Feed Bootstrap</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        </ul>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          Create a new post
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade create" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="caption">
+                  <h6>Caption:</h6>
+                  <textarea name="caption" id="caption" placeholder=" Add your caption here"></textarea>
+                  <div class="capticonos">
+                    <button type="button" class="btn btn-light"><i class="fa-solid fa-camera"></i></button>
+                    <button type="button" class="btn btn-light"><i class="fa-solid fa-location-dot"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Publish</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="btn-group drop">
+          <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+            aria-expanded="false">
+            <i class="fa-solid fa-gear"></i>
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item" href="#">Profile</a></li>
+            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item text-danger" href="#">Log out</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <ul class="nav nav-tabs diferencia" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button"
+        role="tab" aria-controls="home-tab-pane" aria-selected="true"><i class="fa-solid fa-table-cells"></i></button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button"
+        role="tab" aria-controls="profile-tab-pane" aria-selected="false"><i class="fa-regular fa-square"></i></button>
+    </li>
+  </ul>
+  <div class="tab-content " id="myTabContent">
+    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+      <div class="row">
+        <div class="card col-md-6 col-lg-4">
+          <img src="https://picsum.photos/500/500/?blur=1" class="card-img-top" alt="...">
+        </div>
+        <div class="card col-md-6 col-lg-4">
+          <img src="https://picsum.photos/500/500/?blur=1" class="card-img-top" alt="...">
+        </div>
+        <div class="card col-md-6 col-lg-4">
+          <img src="https://picsum.photos/500/500/?blur=1" class="card-img-top" alt="...">
+        </div>
+        <div class="card col-md-6 col-lg-4">
+          <img src="https://picsum.photos/500/500/?blur=1" class="card-img-top" alt="...">
+        </div>
+        <div class="card col-md-6 col-lg-4">
+          <img src="https://picsum.photos/500/500/?blur=1" class="card-img-top" alt="...">
+        </div>
+        <div class="card col-md-6 col-lg-4">
+          <img src="https://picsum.photos/500/500/?blur=1" class="card-img-top" alt="...">
+        </div>
+        <div class="card col-md-6 col-lg-4">
+          <img src="https://picsum.photos/500/500/?blur=1" class="card-img-top" alt="...">
+        </div>
+        <div class="card col-md-6 col-lg-4">
+          <img src="https://picsum.photos/500/500/?blur=1" class="card-img-top" alt="...">
+        </div>
+        <div class="card col-md-6 col-lg-4">
+          <img src="https://picsum.photos/500/500/?blur=1" class="card-img-top" alt="...">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="tab-pane fade vertical" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
+      tabindex="0">
+      <div class="card" style="width: 100%;">
+        <div class="fecha d-flex p-1">
+          <h5 class="card-title titulo">Locuras varias</h5>
+          <p class="mayo"><strong>10/05</strong></p>
+        </div>
+        <img src="https://picsum.photos/seed/picsum/600/400" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p><strong>3000000 Likes</strong></p>
+          <p class="card-text">Ejemplo de un proyecto de iggg.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 100%;">
+        <div class="fecha d-flex p-1">
+          <h5 class="card-title titulo">Locuras varias</h5>
+          <p class="mayo"><strong>10/05</strong></p>
+        </div>
+        <img src="https://picsum.photos/seed/picsum/600/400" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p><strong>3000000 Likes</strong></p>
+          <p class="card-text">Ejemplo de un proyecto de iggg.</p>
+        </div>
+      </div>
+      <div class="card" style="width: 100%;">
+        <div class="fecha d-flex p-1">
+          <h5 class="card-title titulo">Locuras varias</h5>
+          <p class="mayo"><strong>10/05</strong></p>
+        </div>
+        <img src="https://picsum.photos/seed/picsum/600/400" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p><strong>3000000 Likes</strong></p>
+          <p class="card-text">Ejemplo de un proyecto de iggg.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
