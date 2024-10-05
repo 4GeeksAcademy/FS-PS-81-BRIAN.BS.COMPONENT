@@ -1,7 +1,7 @@
 .drop{
     margin-left: 1%;
 }
-.vertical{
+,,,vertical{
     display: flex;
 }
 .fecha{
@@ -27,5 +27,5 @@
     justify-content: center;
 }
 .centrar{
-    align-items: center;
+    justify-content: center;
 }
