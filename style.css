@@ -21,11 +21,7 @@
 }
 .capticonos{
     font-size: x-large;
-    margin: ;
 }
-.diferencia{
-    justify-content: center;
-}
-.centrar{
+.diferencia, .centrar {
     justify-content: center;
 }
